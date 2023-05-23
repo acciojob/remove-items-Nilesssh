@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let selectedValue = document.querySelector("#colorSelect");
 let select = document.querySelector("input");
-selectedValue.addEventListener("change" ,  data => {
+select.addEventListener("click" ,  data => {
 	selectedValue.remove(data.selectedIndex)
 	
 })
